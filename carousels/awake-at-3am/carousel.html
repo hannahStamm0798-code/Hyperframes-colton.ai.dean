@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      @font-face { font-family: "OS"; src: url("fonts/open-sans-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+      @font-face { font-family: "OS"; src: url("fonts/open-sans-latin-800-normal.woff2") format("woff2"); font-weight: 800; }
+      @font-face { font-family: "OS"; src: url("fonts/open-sans-latin-600-italic.woff2") format("woff2"); font-weight: 600; font-style: italic; }
+      :root { --box: #ebe6e5; --navy: #001f3f; --terra: #d98a7e; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { background: #222; font-family: "OS", sans-serif; }
+      .slide { position: relative; width: 1080px; height: 1350px; overflow: hidden; margin-bottom: 20px; background: #555; }
+      .slide img { position: absolute; display: block; object-fit: cover; }
+      .full { inset: 0; width: 100%; height: 100%; }
+
+      /* recurring italic quote line */
+      .quote {
+        position: absolute; left: 0; right: 0; top: 58px; text-align: center;
+        font-style: italic; font-weight: 600; font-size: 46px; color: rgba(255,255,255,0.92);
+        text-shadow: 0 0 2px rgba(0,20,40,0.6), 0 2px 14px rgba(0,20,40,0.55);
+      }
+      .quote .t2 { display: block; color: #f6b5aa; margin-top: 6px; text-shadow: 0 0 2px rgba(0,20,40,0.9), 0 2px 12px rgba(0,20,40,0.75); }
+
+      /* brand text treatment: navy bold on #ebe6e5 rounded line-boxes */
+      .tx { position: absolute; left: 60px; right: 60px; text-align: center; font-weight: 800; color: var(--navy); }
+      .tx p { line-height: 1.5; }
+      .tx span {
+        background: var(--box); padding: 3px 16px 7px; border-radius: 14px;
+        -webkit-box-decoration-break: clone; box-decoration-break: clone;
+      }
+      .up { text-transform: uppercase; font-size: 54px; text-wrap: balance; }
+      .sent { font-size: 46px; font-weight: 700; text-wrap: balance; }
+      .tx p + p { margin-top: 28px; }
+      .cmp .up { font-size: 48px; }
+      .tx span.lbl { display: block; font-size: 36px; background: none; padding: 0; color: #fff; letter-spacing: 0.12em; text-transform: uppercase; text-shadow: 0 2px 12px rgba(0,0,0,0.7); margin-bottom: 8px; }
+      .tx span.lbl.h { color: #f4c2b8; }
+
+      .cover .tx { left: 88px; right: 120px; text-align: left; }
+      .cover .tx p { font-size: 74px; font-weight: 700; line-height: 1.45; }
+      .pill {
+        position: relative; display: inline-block; white-space: nowrap; background: var(--navy); color: #f7f4f3;
+        font-weight: 700; font-size: 48px; border-radius: 16px; padding: 6px 18px 10px;
+      }
+      .arrow { position: absolute; right: 52px; bottom: 54px; width: 230px; height: 70px; }
+    </style>
+  </head>
+  <body>
+    <!-- 1 cover -->
+    <section class="slide cover">
+      <img class="full" src="img/s1.jpg" style="object-position: 50% 100%" />
+      <div class="quote">“Why am I awake again?”</div>
+      <div class="tx" style="top: 790px"><p><span>You're 44 and suddenly wide awake at 3am.</span></p>
+        <div class="pill" style="margin-top: 24px">- here's what might be going on.</div></div>
+      <svg class="arrow" viewBox="0 0 230 70"><path d="M8 40 C 70 30, 140 30, 214 36 M 176 12 C 192 22, 204 30, 216 36 C 202 44, 190 52, 178 62" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+
+    <!-- 2 -->
+    <section class="slide">
+      <img class="full" src="img/s2.jpg" style="object-position: 50% 100%" />
+      <div class="quote">“Why am I awake again?”</div>
+      <div class="tx" style="top: 780px">
+        <p class="up"><span>I hear this from women every week.</span></p>
+        <p class="sent"><span>And it's rarely just “bad sleep.” Here are 3 things that are often behind it.</span></p>
+      </div>
+      <svg class="arrow" viewBox="0 0 230 70"><path d="M8 40 C 70 30, 140 30, 214 36 M 176 12 C 192 22, 204 30, 216 36 C 202 44, 190 52, 178 62" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+
+    <!-- 3 reason 1 -->
+    <section class="slide">
+      <img class="full" src="img/s3.jpg" style="object-position: 50% 100%" />
+      <div class="quote">“Why am I awake again?”</div>
+      <div class="tx cmp" style="top: 830px">
+        <span class="lbl">Reason 1</span><p class="up"><span>Progesterone is dropping.</span></p>
+        <span class="lbl h" style="margin-top: 30px">What it does</span><p class="sent" style="font-size: 42px"><span>Progesterone has a calming effect. As it falls in perimenopause, sleep often gets lighter and easier to break.</span></p>
+      </div>
+      <svg class="arrow" viewBox="0 0 230 70"><path d="M8 40 C 70 30, 140 30, 214 36 M 176 12 C 192 22, 204 30, 216 36 C 202 44, 190 52, 178 62" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+
+    <!-- 4 reason 2 -->
+    <section class="slide">
+      <img class="full" src="img/s4.jpg" style="object-position: 50% 100%" />
+      <div class="quote">“Why am I awake again?”</div>
+      <div class="tx cmp" style="top: 830px">
+        <span class="lbl">Reason 2</span><p class="up"><span>Your blood sugar dips overnight.</span></p>
+        <span class="lbl h" style="margin-top: 30px">What it does</span><p class="sent" style="font-size: 42px"><span>A light, late or carb-heavy dinner can lead to a dip that triggers a stress-hormone wake-up.</span></p>
+      </div>
+      <svg class="arrow" viewBox="0 0 230 70"><path d="M8 40 C 70 30, 140 30, 214 36 M 176 12 C 192 22, 204 30, 216 36 C 202 44, 190 52, 178 62" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+
+    <!-- 5 reason 3: headline moved up above her face, explanation below -->
+    <section class="slide">
+      <img class="full" src="img/s5.jpg" style="object-position: 50% 78%" />
+      <div class="quote">“Why am I awake again?”</div>
+      <div class="tx cmp" style="top: 190px">
+        <span class="lbl">Reason 3</span><p class="up"><span>Your cortisol rhythm is off.</span></p>
+      </div>
+      <div class="tx cmp" style="top: 930px">
+        <span class="lbl h">What it does</span><p class="sent" style="font-size: 42px"><span>Wired at night, flat in the morning. Late screens, late caffeine and stress all play a part.</span></p>
+      </div>
+      <svg class="arrow" viewBox="0 0 230 70"><path d="M8 40 C 70 30, 140 30, 214 36 M 176 12 C 192 22, 204 30, 216 36 C 202 44, 190 52, 178 62" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+
+    <!-- 6 what to try -->
+    <section class="slide">
+      <img class="full" src="img/s6.jpg" style="object-position: 50% 60%" />
+      <div class="quote">“Why am I awake again?”<span class="t2">“What can I try tonight?”</span></div>
+      <div class="tx" style="top: 760px">
+        <p class="up"><span>Small changes to start with:</span></p>
+        <p class="sent"><span>✓ Protein and fibre at dinner<br>✓ Caffeine before noon<br>✓ Dim the lights an hour before bed<br>✓ The same wake time every day</span></p>
+      </div>
+      <svg class="arrow" viewBox="0 0 230 70"><path d="M8 40 C 70 30, 140 30, 214 36 M 176 12 C 192 22, 204 30, 216 36 C 202 44, 190 52, 178 62" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+
+    <!-- 7 CTA: friendly eye contact -->
+    <section class="slide">
+      <img class="full" src="img/s7.jpg" style="object-position: 50% 100%" />
+      <div class="quote">“Still waking at 3am?”<span class="t2">“Let's find out why.”</span></div>
+      <div class="tx" style="top: 790px">
+        <p class="up"><span>That's what my Hormone Assessment is for.</span></p>
+        <p class="sent" style="font-size: 44px"><span>We look at your sleep, cycle, meals and stress together, so you know what's waking you and where to start.</span></p>
+        <div class="pill" style="margin-top: 30px">Book via the link in bio</div>
+      </div>
+    </section>
+  </body>
+</html>
