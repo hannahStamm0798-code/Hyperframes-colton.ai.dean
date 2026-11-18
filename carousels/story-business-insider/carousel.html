@@ -16,28 +16,32 @@
       .b1 { width: 760px; height: 760px; right: -260px; top: -200px; background: rgba(148,180,218,0.35); }
       .b2 { width: 620px; height: 620px; left: -240px; bottom: 120px; background: rgba(246,181,170,0.35); }
 
-      .kicker { position: absolute; top: 230px; left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--terra); }
-      .pub { position: absolute; top: 290px; left: 0; right: 0; text-align: center; font-weight: 800; font-size: 92px; letter-spacing: -0.01em; }
+      .kicker { position: absolute; top: 210px; left: 0; right: 0; text-align: center; font-weight: 800; font-size: 40px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--terra); }
+      .pub { position: absolute; top: 268px; left: 0; right: 0; text-align: center; font-weight: 800; font-size: 92px; letter-spacing: -0.01em; }
 
       .card {
         position: absolute; left: 90px; right: 90px; background: #fff; border-radius: 26px;
         box-shadow: 0 18px 50px rgba(0,31,63,0.16); overflow: hidden;
       }
       .card img { display: block; width: 100%; }
-      #c1 { top: 470px; padding: 34px 40px 30px; transform: rotate(-1.6deg); }
-      #c2 { top: 760px; padding: 30px 36px 26px; transform: rotate(1.2deg); }
-      .hl { position: absolute; left: 36px; right: 36px; top: 30px; height: 74%; background: rgba(246,181,170,0.42); border-radius: 10px; mix-blend-mode: multiply; }
+      #c1 { top: 450px; padding: 34px 44px 32px; transform: rotate(-1.6deg); }
+      .hk { font-weight: 700; font-size: 26px; color: #333; margin-bottom: 8px; }
+      .hh { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 50px; line-height: 1.12; letter-spacing: -0.01em; color: #111; }
+      .hb { margin-top: 14px; font-weight: 700; font-size: 24px; color: #2557d6; }
+      #c2 { top: 790px; padding: 22px 30px 18px; transform: rotate(1deg); }
+      #c3 { top: 1000px; padding: 22px 30px 18px; transform: rotate(-0.8deg); }
+      .hl { position: absolute; left: 30px; right: 30px; top: 22px; bottom: 18px; background: rgba(246,181,170,0.42); border-radius: 10px; mix-blend-mode: multiply; }
 
-      .quote { position: absolute; left: 90px; right: 90px; top: 1130px; display: flex; align-items: center; gap: 34px; }
-      .photo { flex: 0 0 auto; width: 250px; height: 250px; border-radius: 50%; overflow: hidden; border: 8px solid #fff; box-shadow: 0 12px 34px rgba(0,31,63,0.2); }
+      .quote { position: absolute; left: 80px; right: 80px; top: 1255px; display: flex; align-items: center; gap: 34px; }
+      .photo { flex: 0 0 auto; width: 230px; height: 230px; border-radius: 50%; overflow: hidden; border: 8px solid #fff; box-shadow: 0 12px 34px rgba(0,31,63,0.2); }
       .photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
-      .qtext { font-style: italic; font-weight: 600; font-size: 54px; line-height: 1.18; }
-      .who { margin-top: 14px; font-style: normal; font-weight: 700; font-size: 30px; color: rgba(0,31,63,0.7); line-height: 1.3; }
+      .qtext { font-style: italic; font-weight: 600; font-size: 50px; line-height: 1.2; }
+      .who { margin-top: 12px; font-style: normal; font-weight: 700; font-size: 27px; color: rgba(0,31,63,0.7); line-height: 1.3; }
 
-      .read { position: absolute; left: 0; right: 0; top: 1610px; text-align: center; }
+      .read { position: absolute; left: 0; right: 0; top: 1635px; text-align: center; }
       .read { font-weight: 800; font-size: 40px; color: #f7f4f3; }
       .read { width: max-content; margin: 0 auto; background: var(--navy); border-radius: 999px; padding: 14px 40px 18px; }
-      .thanks { position: absolute; left: 90px; right: 90px; top: 1440px; text-align: center; font-weight: 700; font-size: 38px; line-height: 1.35; text-wrap: balance; }
+      .thanks { position: absolute; left: 90px; right: 90px; top: 1525px; text-align: center; font-weight: 700; font-size: 38px; line-height: 1.35; text-wrap: balance; }
     </style>
   </head>
   <body>
@@ -48,14 +52,19 @@
       <div class="kicker">As featured in</div>
       <div class="pub">Business Insider</div>
 
-      <div class="card" id="c1"><img src="img/headline.png" alt="Article headline" /></div>
-      <div class="card" id="c2"><div class="hl"></div><img src="img/laurel-para.png" alt="Laurel Santiago quoted in the article" /></div>
+      <div class="card" id="c1">
+        <div class="hk">Health</div>
+        <div class="hh">Bryan Johnson made a meal delivery service so you can eat like him. Nutritionists have notes.</div>
+        <div class="hb">By Gabby Landsverk · Nov 16, 2026</div>
+      </div>
+      <div class="card" id="c2"><img src="img/cred-para.png" alt="Laurel Santiago's credentials in the article" /></div>
+      <div class="card" id="c3"><div class="hl"></div><img src="img/quote-para.png" alt="Laurel Santiago quoted in the article" /></div>
 
       <div class="quote">
         <div class="photo"><img src="img/laurel.jpg" alt="Laurel Santiago" /></div>
         <div>
-          <div class="qtext">“I think they nailed a good balance.”</div>
-          <div class="who">Laurel Santiago, licensed dietitian-nutritionist</div>
+          <div class="qtext">“People do best when they have choices.”</div>
+          <div class="who">Laurel Santiago, licensed dietitian-nutritionist &amp; founder of the Integrative Center for Nutrition</div>
         </div>
       </div>
 
