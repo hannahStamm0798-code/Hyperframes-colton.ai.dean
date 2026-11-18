@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "historyId": "6899763e-cb50-4e3d-a35f-c1c4f5a253d6",
+  "currentRevision": "22cb9221-d11f-44ed-815c-0a4452a821af",
+  "pendingChanges": false,
+  "files": {
+    "assets/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d",
+      "content": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/77/7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d"
+    },
+    "index.html": {
+      "hash": "81f9203b9de00a6c9416037871069964a0b3fe41606b5e0ba0a3f70c2adecbbb",
+      "content": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/81/81f9203b9de00a6c9416037871069964a0b3fe41606b5e0ba0a3f70c2adecbbb"
+    },
+    "meta.json": {
+      "hash": "925f1d8d0d356a8e6f4c51a65de40788b4834c90297ae3365704bba9c39c2134",
+      "content": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/92/925f1d8d0d356a8e6f4c51a65de40788b4834c90297ae3365704bba9c39c2134"
+    },
+    "package.json": {
+      "hash": "65025b8bcda05c58627ede026bea2690c20e2c8b0a476558d28368eb77119330",
+      "content": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/65/65025b8bcda05c58627ede026bea2690c20e2c8b0a476558d28368eb77119330"
+    },
+    "assets/bg.mp4": {
+      "hash": "568601eda92d5f2564f6cdd16728cc397cfc3ee5942b2fe3431d6cdd4a310c77",
+      "content": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/56/568601eda92d5f2564f6cdd16728cc397cfc3ee5942b2fe3431d6cdd4a310c77"
+    }
+  },
+  "revisions": {
+    "22cb9221-d11f-44ed-815c-0a4452a821af": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795016780001,
+      "endedAt": 1795016780002,
+      "files": {
+        "index.html": {
+          "before": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/e7/e7c0bbea8123988b2d0bfba0c23d974582880a79688aa814f7556055e62251de",
+          "after": "/root/.cache/hyperframes/history/6899763e-cb50-4e3d-a35f-c1c4f5a253d6/blobs/81/81f9203b9de00a6c9416037871069964a0b3fe41606b5e0ba0a3f70c2adecbbb"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "7d32d1f3-83ba-48fc-b33f-4c7bd20ba352"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "7d32d1f3-83ba-48fc-b33f-4c7bd20ba352",
+        "scope": "project",
+        "report": "/home/user/Hyperframes-colton.ai.dean/video-projects/story-choices/.hyperframes/artifacts/checks/7d32d1f3-83ba-48fc-b33f-4c7bd20ba352.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1795016703126,
+        "contentHash": "1c0e1cb95e60f2296e2ea671c5f9fe1ed527d2b49e35b37aed422e292df48424",
+        "revision": null,
+        "inputFingerprint": "c2cf5dfc0bf12b577e0c541f0cd2a11b31cdcca17142d3ecc59714f7d2988d25",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "601168d6-a85f-439c-9c84-413bfb62440f",
+      "completedAt": 1795016828093,
+      "output": "/home/user/Hyperframes-colton.ai.dean/video-projects/story-choices/renders/story-choices.mp4",
+      "status": "completed",
+      "revision": "22cb9221-d11f-44ed-815c-0a4452a821af"
+    },
+    "retainedRevisions": [
+      "22cb9221-d11f-44ed-815c-0a4452a821af"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
