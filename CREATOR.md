@@ -1,63 +1,84 @@
-<!-- HYPERFRAMES_SETUP_INCOMPLETE -->
-<!-- ^ Leave this marker until /setup is complete. It tells Claude to greet a new user
-     and run onboarding before any video work. The setup skill removes it when finished. -->
+# Creator Profile — @laurelksanti
 
-# Creator Profile — _(your name)_
-
-Your identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md`). Use it for on-screen text, niche framing, and workflow assumptions.
-
-> 🚧 **This file is a blank template.** Run `/setup` (or just tell Claude "help me get set up") and it will fill these sections in from a short interview. You can also edit it by hand any time.
+Laurel's identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md` and `_reference/content-playbook.md`). Use it for on-screen text, niche framing, and workflow assumptions.
 
 ## Identity
 
-- **Name on-screen**: _(your display name)_
-- **Instagram**: _(@handle or "—")_
-- **TikTok**: _(handle or "—")_
-- **YouTube**: _(handle or "—")_
-- **X / other**: _(handle or "—")_
+- **Name on-screen**: @laurelksanti _(no display name chosen yet — use the handle on screen)_
+- **Instagram**: @laurelksanti
+- **TikTok**: —
+- **YouTube**: —
+- **X / other**: —
+- **Background**: clinical pharmacy, then a master's in Human Nutrition; 20+ years' experience. Lifelong active (swimming, skiing, horse riding, yoga teacher). Her parents' health story is why this work is personal to her.
 
-When putting handles on-screen (lower-thirds, outros, end-cards), use the platform-appropriate handle.
+When putting handles on-screen (lower-thirds, outros, end-cards), use @laurelksanti.
+
+## Offer
+
+- **Hormone Assessment** — a standalone 1:1 virtual consultation ($97, ~45 min). Reviews symptoms, health history, routines and what she's tried; she gives up to 3 personalized nutrition + lifestyle recommendations, clear priorities, guidance on whether testing is worthwhile, and a written summary. No required follow-on purchase.
+- **Ongoing 1:1 program** — currently full; waitlist.
+- Booking is via the **link in bio** (or a comment/DM keyword when a post calls for it).
 
 ## Platform priority
 
-_(Which platform(s) matter most, and the default aspect ratio. Most short-form creators default to **9:16 vertical, 1080×1920**. Set during /setup.)_
+**Instagram Reels first**, cross-posted to TikTok / Shorts as needed. Reels and Stories: **9:16 vertical, 1080×1920, 30fps**. Carousels: **1080×1350 (4:5)**.
+
+- Keep key text out of the bottom ~20% and the right-edge action rail.
+- **Leave a gap at the top of reels:** top text starts at ~210px (of 1920), not at the edge.
 
 ## Content niche
 
-_(What you make videos about — e.g. AI tools, fitness, cooking, finance, comedy. Set during /setup. When planning a new video, the assistant assumes this niche unless told otherwise.)_
+**Nutrition, hormones & weight loss for women, especially late 30s–50s / perimenopause.** Health education — keep claims accurate and non-sensational, use "may / often / can" where evidence is uncertain, and avoid medical-advice framing. **Laurel checks every health claim before posting.**
+
+- **Calls to action point to Laurel, never "see your doctor"**: link in bio, DM, a comment keyword, save, share, follow.
+- **Don't put "Comment X" on every reel** (it limits reach). Rotate on-screen endings: save prompts, share prompts ("Send this to a friend who…"), a plain statement, and only occasionally a comment keyword. Keyword asks can live in the caption instead.
+- **Booking asks**: "Book your Hormone Assessment via the link in bio."
 
 ## On-camera mix
 
-_(Do you appear on camera, go faceless, or both? Set during /setup.)_
+**On camera, usually silent.** Most footage is real-life b-roll of Laurel (coffee, cooking, walking, gym, bedtime, desk) plus ~60 talking-to-camera clips recorded with a lav mic. Her talking clips are an untapped format (see playbook: "talking Reels").
 
-- **Face-cam** → use `/short-form-video` face-mode choreography (BOTTOM / FULLSCREEN modes).
-- **Faceless** → motion graphics + AI TTS narration (`npx hyperframes tts`) or screen-recordings.
+- Use her b-roll as the background under text; **never put text over her face**.
+- Choose stills/frames where her **eyes are open** and she looks warm — avoid bright-sun squinting shots. For calls to action, use **friendly eye contact / a smile**.
+- Avoid frames with alcohol (e.g. wine glasses) in hormone content.
 
 ## Workflow — division of labor
 
-_(Set during /setup. Two common modes:)_
+**Mix — decided per post.** Most posts are built by the assistant from Laurel's footage (text-on-video Reels, carousels, Stories). If Laurel records a talking Reel, it is the source of truth: build captions/graphics on top and never cut her audio or pacing.
 
-- **You record + pre-edit your own speaking video** → it's the source of truth; the assistant builds the visual layer on top and does NOT cut your audio, remove pauses, or change your pacing.
-- **You build from scratch with the assistant** → motion graphics, TTS narration, screen-recordings assembled together.
+## Footage
+
+Laurel's footage lives in a private **iCloud shared album ("Hannah and Laurel Content")**. The link is intentionally **not stored in this repo** (the repo is public) — the user pastes it into the session when needed. Clip numbers shift when the album changes, so identify clips visually, not by number.
+
+- **Don't reuse a clip across reels on the same topic.**
+- Some clips are 4:3 — **crop, never stretch**, to fill 9:16 or 4:5.
 
 ## Brand identity
 
-_(Colors, fonts, logo. Often a blank slate at the start — `assets/brand-tokens.css` fills in over time. Set initial values during /setup.)_
+Palette (tokens live in `assets/brand-tokens.css`):
+
+| Role | Hex | Use |
+|---|---|---|
+| Background | `#ebe6e5` | warm off-white boxes / canvas |
+| Accent | `#94b4da` | soft blue — shapes, highlights |
+| Text | `#001f3f` | navy — headlines + body |
+| Emphasis | `#c76d62` | terracotta — key words, labels (large text only) |
+
+Two house styles:
+1. **Reels (simple text)** — white bold sans with a navy outline over her footage, on screen the whole time. Her best performer ("Signs your estrogen may be running too high") used this.
+2. **Carousels** — navy bold text on `#ebe6e5` rounded line-boxes, italic white quote line at the top with an optional blush (#f6b5aa) second line, white hand-drawn arrow bottom-right, navy "pill" for CTAs. Font: Open Sans 700/800 + 600 italic.
+3. **Personal Stories** — plain Instagram-text-tool look (black text on white line-boxes) over a candid clip; never ad-like. Leave room for a poll/question sticker.
+
+No logo file yet.
 
 ## Inspiration creators
 
-_(Studied creators live in [`_reference/creator-library/`](_reference/creator-library/). Paste a TikTok / Instagram Reel / YouTube Short URL and run `/study-creator <url>` to add one. At build time, name a creator — "build this like @handle" — to apply their style fingerprint to the visual layer. /setup seeds your first few here.)_
+See [`_reference/creator-library/INDEX.md`](_reference/creator-library/INDEX.md). Laurel's own baseline is `_reference/creator-library/laurelksanti/style-distilled.md`.
 
-## Posting cadence & length defaults
+## Content playbook
 
-- _Cadence_: _(TBD — set during /setup)_
-- _Default length_: 15–45s short-form vertical is a common sweet spot. Adjust per video.
-- _Default fps_: 30 (matches TikTok + Instagram defaults).
+Every idea follows [`_reference/content-playbook.md`](_reference/content-playbook.md): problem-first hooks, rotating formats, a clear purpose per post, and the 30-second talking-Reel structure.
 
 ## Project slug convention
 
-**Topic-only, kebab-case.** Each video gets a new subfolder under `video-projects/<topic-slug>/`. Examples: `ai-agents-intro`, `prompting-101`, `tool-of-the-week`. Keep slugs short and descriptive — scannable at a glance in `ls video-projects/`.
-
----
-
-*This file is updated as your creator profile evolves. Major changes (new handles, platform shifts, workflow changes) can be edited here directly.*
+**Topic-only, kebab-case.** Reels/Stories: `video-projects/<topic-slug>/`. Carousels: `carousels/<topic-slug>/` (HTML slides rendered to PNG with Playwright).

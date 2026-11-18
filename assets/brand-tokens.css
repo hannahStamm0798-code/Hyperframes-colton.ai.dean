@@ -1,16 +1,17 @@
 :root {
-  /* TODO: fill in your brand colors */
-  --brand-bg: ;
-  --brand-surface: ;
-  --brand-surface-2: ;
-  --brand-border: ;
-  --brand-accent: ;
-  --brand-accent-glow: ;
-  --brand-warn: ;
-  --brand-text: ;
-  --brand-text-dim: ;
+  /* Brand palette — @laurelksanti */
+  --brand-bg: #ebe6e5;          /* warm off-white — text boxes / canvas */
+  --brand-surface: #f7f4f3;     /* lighter card / panel */
+  --brand-surface-2: #dcd5d3;   /* deeper card / divider fill */
+  --brand-border: #c9c0be;
+  --brand-accent: #94b4da;      /* soft blue — highlights, shapes */
+  --brand-accent-glow: rgba(148, 180, 218, 0.45);
+  --brand-warn: #c76d62;        /* terracotta — emphasis (large text only) */
+  --brand-blush: #f6b5aa;       /* light terracotta — quote second line on photos */
+  --brand-text: #001f3f;        /* navy — headlines + body */
+  --brand-text-dim: rgba(0, 31, 63, 0.65);
 
-  /* TODO: pick your typography */
+  /* Typography */
   --font-mono: ui-monospace, Menlo, monospace;
-  --font-display: system-ui, sans-serif;
+  --font-display: "Open Sans", system-ui, sans-serif;
 }

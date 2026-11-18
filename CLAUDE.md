@@ -50,6 +50,10 @@ This is the engine behind setup's "paste your favorite reels" step — those lin
 
 Many creators record and pre-edit their own speaking video, then have the assistant build the visual layer on top. **If `CREATOR.md` says the user works this way, do NOT cut their audio, remove pauses, restructure their speech, or change their pacing.** Their speaking video is the source of truth — sync visuals to its timing, never the other way around. Other creators build faceless videos with motion graphics + TTS narration; `CREATOR.md` records which mode the user prefers.
 
+## Content playbook — READ BEFORE PLANNING ANY POST
+
+`_reference/content-playbook.md` defines how ideas are shaped for this creator: problem-first hooks (never topic-first), rotating formats, a stated purpose per post (attention / shares / saves / familiarity / authority / enquiries), the 30-second talking-Reel structure, and content guardrails. Apply it before writing any hook, caption or script.
+
 ## MOTION_PHILOSOPHY.md — READ BEFORE BRAINSTORMING
 
 **`MOTION_PHILOSOPHY.md` (at the workspace root) is the canonical motion-graphics aesthetic baseline.** It is a deconstructed playbook of a gold-standard 30s motion spot — the reference for motion builds in this workspace.
