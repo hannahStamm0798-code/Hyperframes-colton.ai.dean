@@ -5,9 +5,9 @@ Stills taken from the iCloud shared album "Hannah and Laurel Content", recent-vi
 | Slide | Clip # | Second |
 |---|---|---|
 | 1 | 140 | 30 |
-| 2 | 144 | 5 |
-| 3 | 146 | 35 |
+| 2 | 027 | 38.7 |
+| 3 | 113 | 4.7 |
 | 4 | 118 | 5 |
-| 5 | 176 | 45 |
+| 5 | 177 | 64.5 |
 | 6 | 072 | 25 |
 | 7 | 135 | 11 |
