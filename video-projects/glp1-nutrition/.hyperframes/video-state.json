@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "historyId": "1c86a056-ed43-4302-8328-4f7578608ca1",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "assets/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/1c86a056-ed43-4302-8328-4f7578608ca1/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d",
+      "content": "/root/.cache/hyperframes/history/1c86a056-ed43-4302-8328-4f7578608ca1/blobs/77/7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d"
+    },
+    "index.html": {
+      "hash": "3c28e7bc19c2c3048ebbce3264989af0b9bcbb142c6856474d01751a9730a175",
+      "content": "/root/.cache/hyperframes/history/1c86a056-ed43-4302-8328-4f7578608ca1/blobs/3c/3c28e7bc19c2c3048ebbce3264989af0b9bcbb142c6856474d01751a9730a175"
+    },
+    "meta.json": {
+      "hash": "aa085e85a74993773479ecf19cc1568d2332968c2743fd5c574b14ab0b18f828",
+      "content": "/root/.cache/hyperframes/history/1c86a056-ed43-4302-8328-4f7578608ca1/blobs/aa/aa085e85a74993773479ecf19cc1568d2332968c2743fd5c574b14ab0b18f828"
+    },
+    "package.json": {
+      "hash": "ef6bd4b9d38b70d5637ffb9ff00a6315b23af6eb411bda79f67be90e941925f4",
+      "content": "/root/.cache/hyperframes/history/1c86a056-ed43-4302-8328-4f7578608ca1/blobs/ef/ef6bd4b9d38b70d5637ffb9ff00a6315b23af6eb411bda79f67be90e941925f4"
+    },
+    "assets/bg.mp4": {
+      "hash": "03270dcbc389908321630fb828bd7fafb0c1a4f232fc914efab9501ab71ced14",
+      "content": "/root/.cache/hyperframes/history/1c86a056-ed43-4302-8328-4f7578608ca1/blobs/03/03270dcbc389908321630fb828bd7fafb0c1a4f232fc914efab9501ab71ced14"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "a458256d-2176-43e0-a707-e1e9038bf4a3"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "a458256d-2176-43e0-a707-e1e9038bf4a3",
+        "scope": "project",
+        "report": "/home/user/Hyperframes-colton.ai.dean/video-projects/glp1-nutrition/.hyperframes/artifacts/checks/a458256d-2176-43e0-a707-e1e9038bf4a3.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1795436463280,
+        "contentHash": "4595fa54ecc31d0d2ef0b1fcc50f71372dff11fb2ec763b35e2e8636677da062",
+        "revision": null,
+        "inputFingerprint": "daec1945bb17eb0bcab59352eca515b3fa5a2b41b50acb4dbe646f0fa82caf51",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "b87e1d88-2288-427c-92ed-b09bb5595a7a",
+      "completedAt": 1795436526916,
+      "output": "/home/user/Hyperframes-colton.ai.dean/video-projects/glp1-nutrition/renders/glp1-nutrition.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}
