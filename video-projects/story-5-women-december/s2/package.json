@@ -1,0 +1,9 @@
+{
+  "name": "story-5-women-s2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npx --yes hyperframes@0.8.174 check",
+    "render": "npx --yes hyperframes@0.8.174 render"
+  }
+}

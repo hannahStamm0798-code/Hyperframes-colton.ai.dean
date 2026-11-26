@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "historyId": "16900915-283f-4500-9785-0f6a11eb4e1c",
+  "currentRevision": "7a6305cf-5b2b-43ca-9d40-534721e695d2",
+  "pendingChanges": false,
+  "files": {
+    "assets/gsap.min.js": {
+      "hash": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "content": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/c1/c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    "hyperframes.json": {
+      "hash": "7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d",
+      "content": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/77/7760693dcdca6a31fffd9ed53b7fe9b4d7877089b1778edc5a5de0cb4bac517d"
+    },
+    "index.html": {
+      "hash": "4289083af4d3ff5e45c02dc33cb1b35ae4ddc6cf37d0ae0a866e79307ebcd2b6",
+      "content": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/42/4289083af4d3ff5e45c02dc33cb1b35ae4ddc6cf37d0ae0a866e79307ebcd2b6"
+    },
+    "meta.json": {
+      "hash": "b33a29331d03f2e9345927a10db345d2f7c76332a3e3513faad6628dbbd2a444",
+      "content": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/b3/b33a29331d03f2e9345927a10db345d2f7c76332a3e3513faad6628dbbd2a444"
+    },
+    "package.json": {
+      "hash": "af0d1ad27d96439b3be03f41828cac8a3ab46e8f14454a4a2ccb1acd6e254d10",
+      "content": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/af/af0d1ad27d96439b3be03f41828cac8a3ab46e8f14454a4a2ccb1acd6e254d10"
+    },
+    "assets/bg.mp4": {
+      "hash": "f8e13cda3250c75367df4d3828810f4b90a4d175fea018e77f79bc7541e4e77e",
+      "content": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/f8/f8e13cda3250c75367df4d3828810f4b90a4d175fea018e77f79bc7541e4e77e"
+    }
+  },
+  "revisions": {
+    "7a6305cf-5b2b-43ca-9d40-534721e695d2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795704763736,
+      "endedAt": 1795704763737,
+      "files": {
+        "assets/bg.mp4": {
+          "before": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/39/398946a74c0c9675a10ae11e93ab35319ca9860c41a6433603b3bbaffc9ef3ec",
+          "after": "/root/.cache/hyperframes/history/16900915-283f-4500-9785-0f6a11eb4e1c/blobs/f8/f8e13cda3250c75367df4d3828810f4b90a4d175fea018e77f79bc7541e4e77e"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "2d451b52-1432-4ea3-8c0c-0abe0926945c"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "2d451b52-1432-4ea3-8c0c-0abe0926945c",
+        "scope": "project",
+        "report": "/home/user/Hyperframes-colton.ai.dean/video-projects/story-5-women-december/s3/.hyperframes/artifacts/checks/2d451b52-1432-4ea3-8c0c-0abe0926945c.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 3000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1795704615011,
+        "contentHash": "6059a87cb4b494e1d7b232467b2e404ab3a4e2bb69270b27d04da50339c7398b",
+        "revision": null,
+        "inputFingerprint": "717c0fbafe11da2df02f939a839e85cd826ee47c5d5b6ef21a5bcb0e2793ba32",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "7ea0895f-28dc-4790-93dc-7f91ecb8897f",
+      "completedAt": 1795704792964,
+      "output": "/home/user/Hyperframes-colton.ai.dean/video-projects/story-5-women-december/renders/story-5women-s3.mp4",
+      "status": "completed",
+      "revision": "7a6305cf-5b2b-43ca-9d40-534721e695d2"
+    },
+    "retainedRevisions": [
+      "7a6305cf-5b2b-43ca-9d40-534721e695d2"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}
