@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "ced03d23-b646-4297-ae57-8c9d92977ffb",
-  "currentRevision": "b4febe7d-61dc-4921-ad61-5291e261ea83",
+  "currentRevision": "a8c53c6a-bf4c-419f-b15d-10fbb0eb9d24",
   "pendingChanges": false,
   "files": {
     "assets/gsap.min.js": {
@@ -25,8 +25,8 @@
       "content": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/d1/d11957c7547758cac47ce5ad75628e6d7ad64da665e07050323e7a3f808e8025"
     },
     "assets/bg.mp4": {
-      "hash": "07c1f37e07f17bbe42682e10c590b0a9a7467dfb3cafba5741e552893e11d172",
-      "content": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/07/07c1f37e07f17bbe42682e10c590b0a9a7467dfb3cafba5741e552893e11d172"
+      "hash": "741b79653e67edcf354eea344d2a5d56e293ef35bf03182573a002d127a863e8",
+      "content": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/74/741b79653e67edcf354eea344d2a5d56e293ef35bf03182573a002d127a863e8"
     }
   },
   "revisions": {
@@ -42,6 +42,21 @@
         "index.html": {
           "before": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/22/22f277375bd777a1cc2476906e7a85c3f6787f92fd19198fdcdcccfbf9da0d3d",
           "after": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/1e/1e37275b5117bd72fb0bb26e9abb3801f6125a3170e1a3eadd2804932a2230ae"
+        }
+      }
+    },
+    "a8c53c6a-bf4c-419f-b15d-10fbb0eb9d24": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795705121503,
+      "endedAt": 1795705121504,
+      "files": {
+        "assets/bg.mp4": {
+          "before": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/07/07c1f37e07f17bbe42682e10c590b0a9a7467dfb3cafba5741e552893e11d172",
+          "after": "/root/.cache/hyperframes/history/ced03d23-b646-4297-ae57-8c9d92977ffb/blobs/74/741b79653e67edcf354eea344d2a5d56e293ef35bf03182573a002d127a863e8"
         }
       }
     }
@@ -89,13 +104,14 @@
   },
   "renders": {
     "latest": {
-      "id": "14c89478-2573-4c84-b64d-ec3134ae0887",
-      "completedAt": 1795704733041,
+      "id": "d2ec3930-178e-454b-95d8-24441ac18db9",
+      "completedAt": 1795705154066,
       "output": "/home/user/Hyperframes-colton.ai.dean/video-projects/story-5-women-december/renders/story-5women-s1.mp4",
       "status": "completed",
-      "revision": "b4febe7d-61dc-4921-ad61-5291e261ea83"
+      "revision": "a8c53c6a-bf4c-419f-b15d-10fbb0eb9d24"
     },
     "retainedRevisions": [
+      "a8c53c6a-bf4c-419f-b15d-10fbb0eb9d24",
       "b4febe7d-61dc-4921-ad61-5291e261ea83"
     ]
   },
